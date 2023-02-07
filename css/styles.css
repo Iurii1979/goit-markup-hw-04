@@ -285,8 +285,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  height: 112px;
+
   margin-bottom: 8px;
   background-color: var(--color-cloud);
   border-radius: 4px;
@@ -614,4 +614,5 @@ img {
 
 .picture-txt {
   line-height: calc(24 / 16);
+  color: var(--secondary-txt-slate);
 }
