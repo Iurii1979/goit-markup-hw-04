@@ -428,9 +428,8 @@ img {
   flex-basis: calc((100% - var(--indent) * (var(--item)) + 2) / 6);
   width: 168px;
   height: 88px;
-  border: 1px solid #8e8f99;
+  border: 1px solid var(--color-light-slate);
   border-radius: 4px;
-  border-color: var(--color-light-slate);
 
   fill: var(--color-light-slate);
 }
@@ -442,7 +441,7 @@ img {
 
 .customers-link:hover .customers-icon,
 .customers-link:focus .customers-icon {
-  fill: var(--color-ocean);
+  fill: currentColor;
 }
 
 .customers-icon {
